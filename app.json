@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/lingdu/lingdu",
+    "pages/bookdest/bookdest",
+    "pages/dstack/dstack",
+    "pages/mine/mine",
+    "pages/lingdu/stores/stores",
+    "pages/dstack/booklist/booklist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "网易蜗牛读书",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/lingdu/lingdu",
+        "text": "领读",
+        "iconPath": "assets/icons/lingdu.png",
+        "selectedIconPath": "assets/icons/lingdu_sel.png"
+      },
+      {
+        "pagePath": "pages/dstack/dstack",
+        "text": "分类",
+        "iconPath": "assets/icons/stack.png",
+        "selectedIconPath": "assets/icons/stack.png"
+      },
+      {
+        "pagePath": "pages/bookdest/bookdest",
+        "text": "书桌",
+        "iconPath": "assets/icons/bookdesk.png",
+        "selectedIconPath": "assets/icons/bookdesk_sel.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "assets/icons/mine.png",
+        "selectedIconPath": "assets/icons/mine_sel.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

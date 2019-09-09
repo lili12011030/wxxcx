@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <view class="start"><image src="../../assets/images/start.jpg" /></view> 
+</view>
